@@ -1,0 +1,31 @@
+.meny-hard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #eeeeee;
+  padding: 0.5rem 2rem;
+}
+
+.meny-hard figure {
+  margin: 0;
+  width: 100px;
+}
+
+.meny-hard .options span {
+  color: #afafaf;
+}
+
+@media screen and (max-width: 500px) {
+  .meny-hard {
+    background-color: greenyellow;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .meny-hard .options {
+    display: flex;
+    flex-direction: column;
+    margin-block: 1rem;
+  }
+}
